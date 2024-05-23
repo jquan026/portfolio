@@ -50,4 +50,6 @@
   cursor: pointer;
   background: #ECECEB;
   border: 2px solid #A7B1A5;
+  color: black;
+  text-decoration: none;
 }

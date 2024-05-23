@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Hero.css";
 import pfp from "../images/pfp.png";
+import resume from "./resume-2024.pdf";
 
 const Hero = () => {
   const [typedText, setTypedText] = useState("");
@@ -55,7 +56,7 @@ const Hero = () => {
         <p>{typedText2}</p>
         <div className="action">
           <div className="connect-hero" onClick={() => scrollToSection("footer")}>Contact</div>
-          <div className="resume-hero">Resume</div>
+          <a className="resume-hero" href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
         </div>
       </div>
     </div>
