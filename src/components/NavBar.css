@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  padding: 10px 20px;
+  background-color: #E3E8E1;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold; 
+  padding: 0 25px;
+  color: #342E37;
+}
+
+.menu li:hover {
+  text-decoration: underline;
+  font-size: 22px;
+  color: pink;
+}

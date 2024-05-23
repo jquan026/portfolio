@@ -1,0 +1,58 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFBF8;
+  padding: 20px;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px; /* Fixed width for card size */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds shadow for a card effect */
+}
+
+.footer-title{
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Space between items */
+}
+
+.footer-item a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-item:hover {
+  text-decoration: underline;
+}
+
+.small-image {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px; /* Space between image and text */
+}
+
+.username {
+  font-size: 16px;
+}

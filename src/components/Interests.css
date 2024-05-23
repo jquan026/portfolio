@@ -1,0 +1,32 @@
+.interests {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 170px;
+}
+
+.title {
+  position: relative;
+}
+
+.interest-container h1 {
+  padding: 0px 30px;
+  font-size: 80px;
+  font-weight: 300;
+}
+
+.interest-section{
+  display: flex;
+  gap: 80px;
+}
+
+.interest-section h2{
+  font-weight: 250;
+  font-size: 35px;
+  
+}
+
+.interest-box{
+  margin-top: -20px;
+}

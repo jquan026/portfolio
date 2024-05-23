@@ -1,0 +1,53 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  gap: 35px;
+  background-color: #FFFBF8;
+}
+
+.hero img {
+  max-width: 300px;
+  border-radius: 50%; 
+  margin-top: 50px;
+}
+
+.hero h1 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero p {
+  text-align: center;
+  font-size: 18px; 
+  line-height: 1.5;
+  margin: 0; 
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.connect-hero {
+  padding: 15px 25px;
+  border-radius: 50px;
+  cursor: pointer;
+  background: #ECECEB;
+  border: 2px solid #A7B1A5;
+}
+
+.resume-hero {
+  padding: 15px 25px;
+  border-radius: 50px;
+  cursor: pointer;
+  background: #ECECEB;
+  border: 2px solid #A7B1A5;
+}
