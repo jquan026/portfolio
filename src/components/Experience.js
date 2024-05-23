@@ -14,7 +14,7 @@ const Experience = () => {
               <p className="background">Skincare</p>
             </div>
             <div className="card-back">
-              <span>Clean Skin is a web application designed for those who want to learn more about skin care or those who are skincare enthusiest.</span>
+              <span>Clean Skin is a web application designed for those who want to learn more about skin care or those who are skincare enthusiast.</span>
               <span>I created and mainly contributed to the frontend of the application.</span>
               <span>Created using JavaScript, MongoDB, and CSS</span>
             </div>

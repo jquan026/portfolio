@@ -18,7 +18,7 @@ const Interests = () => {
         <div className="academic-section">
           <h2>Academic Interests</h2>
           <p>I am mainly interested in UI/UX design as it provides a creativity aspect. I enjoy making web pages aestheic looking and accessible to all kinds of users.</p>
-          <p>I am also interested in web development, mainly frontend as it is the part where I can visually see what I am coding. I find that the frontend is more enjoyable compared to the backend</p>
+          <p>I am also interested in web development, mainly frontend as it is the part where I can visually see what I am coding. I find that the frontend is more enjoyable compared to the backend.</p>
         </div>
       </div>
       </div>
